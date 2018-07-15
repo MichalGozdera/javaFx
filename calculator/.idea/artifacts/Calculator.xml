@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Calculator">
+    <output-path>$PROJECT_DIR$/out/artifacts/Calculator</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="calc.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Calculator" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="calculator.jar">
+        <element id="module-output" name="javafx" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/calc/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/src/resources" />
+        <element id="dir-copy" path="$PROJECT_DIR$/src/controllers" />
+      </element>
+    </root>
+  </artifact>
+</component>
