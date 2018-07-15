@@ -163,7 +163,7 @@ public class Controller {
         };
 
         EventHandler<MouseEvent> resultHandler = e -> {
-            if (number.length() > 0) {
+            if (number.length() > 0 && Operations.getOperation()!=null) {
                 if (Operations.getFirstNumber() == null) {
                     Operations.setFirstNumber(new BigDecimal(number.toString()));
                 } else {
